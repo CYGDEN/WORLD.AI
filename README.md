@@ -1,4 +1,4 @@
-EN
+<img width="1919" height="1079" alt="1" src="https://github.com/user-attachments/assets/a3b2a647-dbc3-41a3-add1-2d713678aa96" />
 
 Version V0.4 is an innovative system in which a neural network acts as a control element for three agents. The concept of the system is that the neural network, using its computing power, independently determines the actions of agents based on the analysis of the presence of certain elements in the simulation of the world.
 
