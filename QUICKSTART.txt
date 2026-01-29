@@ -1,0 +1,24 @@
+(1) WIN+R > CMD
+
+(2)
+pip install aiohttp
+pip install pygame
+
+(3)
+install manually > https://github.com/ggml-org/llama.cpp/releases 
+
+(4)
+llama.cpp > The Vulkan version works without the CUDA driver and is sometimes even better, but it needs testing. If your video card supports CUDA, test the CUDA version.
+
+(5)
+C:\CYGDEN\AI\CPP\llama-server.exe -m C:\CYGDEN\AI\CPP\MODELS\LFM2.5-1.2B-Instruct-Q4_0.gguf --port 8080 -ngl 50 -c 6000 --flash-attn on -b 512 -ub 128 --samplers min_p --min-p 0.05 --temp 0.7 --top-p 0.9
+
+
+
+
+
+(CYGDEN INFO)
+(C:\CYGDEN\AI\CPP\MODELS\LFM2.5-1.2B-Instruct-Q4_0.gguf > You can specify any path where the model is located.)
+(C:\CYGDEN\AI\CPP\llama-server.exe > Specify the location where your server folder is located.)
+
+(Here are my initial settings. If you want to change them, you can ask the neural network (https://www.perplexity.ai/) what all these parameters mean. You can copy the entire text in the file. It is worth noting from the outset that these configurations are the product of my own design. You are welcome to adapt them to suit your own preferences. This is my inaugural project on GitHub, and I thank you for your patience. In my quest to advance neural network technology, I am sharing my personal projects with the aim of fostering personal growth.)
