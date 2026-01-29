@@ -1,5 +1,40 @@
-<img width="1919" height="1079" alt="1" src="https://github.com/user-attachments/assets/a3b2a647-dbc3-41a3-add1-2d713678aa96" />
+<div align="center">
 
-Version V0.4 is an innovative system in which a neural network acts as a control element for three agents. The concept of the system is that the neural network, using its computing power, independently determines the actions of agents based on the analysis of the presence of certain elements in the simulation of the world.
+  <!-- ЛОГОТИП -->
+  <img src="https://github.com/user-attachments/assets/a3b2a647-dbc3-41a3-add1-2d713678aa96" alt="System V0.4" width="500" style="border-radius: 20px; margin-bottom: 20px; box-shadow: 0 20px 20px rgba(0,0,0,0.4);">
+  
 
-As part of this project, a neural network model called LFM2.5-1.2B-Instruct-Q4_0.gguf was selected to determine how effectively small models can cope with the tasks of complex simulation management.
+  <!-- БЕЙДЖИ -->
+  [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+  [![Python 3.9+](https://img.shields.io/badge/python-3.12.7-blue.svg)](https://www.python.org/downloads/)
+  [![LLM](https://img.shields.io/badge/Model-LFM2.5--1.2B-green.svg)]()
+
+
+
+ ### 🏗️ Architecture
+ <p><b> Multi-agent simulation driven by a small-form neural network</b></p>
+The system is based on the interaction of three independent agents and a central neural network.
+
+```mermaid
+graph LR
+    subgraph World [Simulation Environment]
+        E[Events]
+    end
+
+    subgraph Brain [LFM2.5 Model]
+        N[Neural Engine]
+    end
+
+    subgraph Actors [Agents]
+        A1(Agent 1)
+        A2(Agent 2)
+        A3(Agent 3)
+    end
+
+    E -->|Data| N
+    N -->|Commands| A1 & A2 & A3
+    A1 & A2 & A3 -->|Feedback| E
+
+
+```
+
