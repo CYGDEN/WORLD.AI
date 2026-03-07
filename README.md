@@ -1,5 +1,4 @@
-<div align="center">
-  <img src="https://github.com/user-attachments/assets/a3b2a647-dbc3-41a3-add1-2d713678aa96" alt="System V0.4" width="1000" style="border-radius: 20px; margin-bottom: 20px; box-shadow: 0 20px 20px rgba(0,0,0,0.4);">
+<img width="1397" height="805" alt="image" src="https://github.com/user-attachments/assets/aaa02c6f-97fd-47e8-979f-2190b8ae9ebd" />[![](https://img.shields.io/badge/-SOURCE_CODE-black?style=for-the-badge&logo=)](HTTPS://GITHUB.COM/CYGDEN/WORLD.AI)[![](https://img.shields.io/badge/-AUTHOR-black?style=for-the-badge&logo=)](HTTPS://GITHUB.COM/CYGDEN)[![](https://img.shields.io/badge/-ARENA.AI-black?style=for-the-badge&logo=)](HTTPS://ARENA.AI)[![](https://img.shields.io/badge/-OPENCODE_+_GOOGLE_ANTIGRAVITY_+_VSCODE-black?style=for-the-badge&logo=)](HTTPS://GITHUB.COM/CYGDEN)
   
 ```mermaid
 graph LR
