@@ -3,21 +3,21 @@
   
 ```mermaid
 graph LR
-    subgraph World [Simulation Environment]
-        E[Events]
+    subgraph World [ ]
+        E[INSTRUCTION]
     end
 
-    subgraph Brain [LFM2.5 Model]
-        N[Neural Engine]
+    subgraph Brain [ ]
+        N[MODEL]
     end
 
-    subgraph Actors [Agents]
-        A1(Agent 1)
-        A2(Agent 2)
-        A3(Agent 3)
+    subgraph Actors [ ]
+        A1(1)
+        A2(2)
+        A3(3)
     end
 
-    E -->|Data| N
-    N -->|Commands| A1 & A2 & A3
-    A1 & A2 & A3 -->|Feedback| E
+    E -->| | N
+    N -->|ACTION| A1 & A2 & A3
+    A1 & A2 & A3 -->|LOG| E
 ```
